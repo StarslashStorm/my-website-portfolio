@@ -446,44 +446,6 @@ footer {
     color: #b794f4;
 }
 
-/* ── LANGUAGE TRAINING (Human Languages) ─────────────── */
-.human-languages-list li {
-    flex-wrap: wrap;
-}
-
-.lang-training {
-    flex-basis: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 8px;
-    margin-top: 2px;
-    padding-left: 28px;
-}
-
-.training-type {
-    font-size: 0.65rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    padding: 2px 8px;
-    border-radius: 4px;
-    border: 1px solid currentColor;
-}
-
-.training-type.formal {
-    color: #f6ad55;
-}
-
-.training-type.self-study {
-    color: #4fd1c5;
-}
-
-.training-place {
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.6);
-}
-
 /* ── FIREFLY CANVAS ──────────────────────────────────── */
 canvas {
     filter: blur(1px);
